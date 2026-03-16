@@ -25,3 +25,18 @@ dist-ssr
 
 # Backup/original image files (pre-compression)
 *_original.*
+
+# Internal docs & reports (not for repo)
+KTDocs/
+LightHouse_reports/
+
+# Temp files
+tmpclaude-*
+
+# Project notes (contains sensitive keys)
+KAVACH_PROJECT_NOTES.md
+
+# Env files (set via Vercel environment variables)
+.env
+.env.local
+.env.production
