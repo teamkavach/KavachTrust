@@ -1,0 +1,33 @@
+{
+  "upcomingEvents": [
+    {
+      "id": 1,
+      "title": "Blanket Distribution Drive 2026",
+      "shortDescription": "Help us bring warmth to those in need this winter",
+      "description": "Join Team Kavach in our winter blanket distribution drive. We're distributing warm blankets to homeless individuals and underprivileged families across Bangalore to help them survive the cold nights.",
+      "date": "5",
+      "month": "JAN",
+      "year": "2026",
+      "fullDate": "January 5, 2026",
+      "time": "7:00 AM - 11:00 AM",
+      "location": "Multiple locations across Bangalore",
+      "venue": "Starting Point: Majestic Bus Stand",
+      "address": "Kempegowda Bus Station, Majestic, Bangalore - 560009",
+      "posterUrl": "/images/events/upcoming/blanket-drive.jpg",
+      "registrationLink": "/get-involved",
+      "donationLink": "/donate",
+      "isHighlighted": true,
+      "stats": {
+        "target": "500+ Blankets",
+        "volunteers": "50+ Volunteers",
+        "locations": "10+ Localities"
+      }
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DQg6LPzE0sY/",
+    "https://www.instagram.com/p/DHlo7LyTKBM/",
+    "https://www.instagram.com/p/DKm2As8zOu0/",
+    "https://www.instagram.com/p/DLMQKuuThAo/"
+  ]
+}

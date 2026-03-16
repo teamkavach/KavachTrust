@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "id": "blanket-distribution",
+      "name": "Blanket Distribution",
+      "description": "Winter blanket distribution drives across Bangalore",
+      "coverImage": "/images/gallery/blanket-distribution/thumb.webp",
+      "date": "2025-01",
+      "photoCount": 5
+    },
+    {
+      "id": "umbrella-distribution",
+      "name": "Umbrella Distribution",
+      "description": "Monsoon umbrella distribution drive",
+      "coverImage": "/images/gallery/umbrella-distribution/thumb.webp",
+      "date": "2024-06",
+      "photoCount": 3
+    },
+    {
+      "id": "plog-trek",
+      "name": "Plog Trek",
+      "description": "Trekking with a purpose - cleaning trails while trekking",
+      "coverImage": "/images/gallery/plog-trek/thumb.webp",
+      "date": "2024-11",
+      "photoCount": 9
+    },
+    {
+      "id": "vnurture-lake-cleaning",
+      "name": "vNurture Lake Cleaning",
+      "description": "Lake cleaning initiative for cleaner water bodies",
+      "coverImage": "/images/gallery/vnurture-lake-cleaning/thumb.webp",
+      "date": "2024-10",
+      "photoCount": 2
+    },
+    {
+      "id": "blood-donation",
+      "name": "Blood Donation Camp",
+      "description": "Blood donation drives for Thalassemia children saving lives",
+      "coverImage": "/images/gallery/blood-donation/thumb.webp",
+      "date": "2024-08",
+      "photoCount": 8
+    },
+    {
+      "id": "rural-govt-school",
+      "name": "Rural Govt School Visit",
+      "description": "Supporting rural government schools through painting and renovation",
+      "coverImage": "/images/gallery/rural-govt-school/thumb.webp",
+      "date": "2024-09",
+      "photoCount": 8
+    },
+    {
+      "id": "rural-exam-kit",
+      "name": "Rural Exam Kit Distribution",
+      "description": "Providing exam kits to rural students for better education",
+      "coverImage": "/images/gallery/rural-exam-kit/thumb.webp",
+      "date": "2024-07",
+      "photoCount": 8
+    },
+    {
+      "id": "govt-school-college",
+      "name": "Govt School & College Programs",
+      "description": "Educational support and teaching programs at government institutions",
+      "coverImage": "/images/gallery/govt-school-college/thumb.webp",
+      "date": "2024-05",
+      "photoCount": 21
+    },
+    {
+      "id": "team-group-photos",
+      "name": "Team Group Photos",
+      "description": "Team Kavach family moments and gatherings",
+      "coverImage": "/images/gallery/team-group-photos/thumb.webp",
+      "date": "2024-12",
+      "photoCount": 5
+    },
+    {
+      "id": "official-registration",
+      "name": "Official Registration",
+      "description": "Team Kavach official registration milestones",
+      "coverImage": "/images/gallery/official-registration/thumb.webp",
+      "date": "2022-05",
+      "photoCount": 2
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "events": [
+    {
+      "id": "blanket-distribution",
+      "name": "Blanket Distribution",
+      "description": "Winter blanket distribution drives across Bangalore",
+      "coverImage": "/images/gallery/blanket-distribution/blanket-distribution-1.webp",
+      "date": "2025-01",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/blanket-distribution/blanket-distribution-1.webp",
+          "caption": "Blanket Distribution Drive - Team preparing blankets"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/blanket-distribution/blanket-distribution-2.webp",
+          "caption": "Volunteers distributing warm blankets"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/blanket-distribution/blanket-distribution-3.webp",
+          "caption": "Team Kavach members at distribution site"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/blanket-distribution/blanket-distribution-4.webp",
+          "caption": "Bringing warmth to those in need"
+        },
+        {
+          "id": 5,
+          "url": "/images/gallery/blanket-distribution/blanket-distribution-5.webp",
+          "caption": "Happy beneficiaries receiving blankets"
+        }
+      ]
+    },
+    {
+      "id": "umbrella-distribution",
+      "name": "Umbrella Distribution",
+      "description": "Monsoon umbrella distribution drive",
+      "coverImage": "/images/gallery/umbrella-distribution/umbrella-distribution-1.webp",
+      "date": "2024-06",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/umbrella-distribution/umbrella-distribution-1.webp",
+          "caption": "Umbrella distribution during monsoon season"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/umbrella-distribution/umbrella-distribution-2.webp",
+          "caption": "Team members distributing umbrellas"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/umbrella-distribution/umbrella-distribution-3.webp",
+          "caption": "Helping communities stay dry during rains"
+        }
+      ]
+    },
+    {
+      "id": "plog-trek",
+      "name": "Plog Trek",
+      "description": "Trekking with a purpose - cleaning trails while trekking",
+      "coverImage": "/images/gallery/plog-trek/plog-trek-1.webp",
+      "date": "2024-11",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/plog-trek/plog-trek-1.webp",
+          "caption": "Plog trek team ready for action"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/plog-trek/plog-trek-2.webp",
+          "caption": "Collecting waste during trek"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/plog-trek/plog-trek-3.webp",
+          "caption": "Team cleaning nature trails"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/plog-trek/plog-trek-4.webp",
+          "caption": "Making trails cleaner for everyone"
+        },
+        {
+          "id": 5,
+          "url": "/images/gallery/plog-trek/plog-trek-5.webp",
+          "caption": "Environmental awareness through plogging"
+        },
+        {
+          "id": 6,
+          "url": "/images/gallery/plog-trek/plog-trek-6.webp",
+          "caption": "Team effort in cleaning mountains"
+        },
+        {
+          "id": 7,
+          "url": "/images/gallery/plog-trek/plog-trek-7.webp",
+          "caption": "Volunteers with collected waste"
+        },
+        {
+          "id": 8,
+          "url": "/images/gallery/plog-trek/plog-trek-8.webp",
+          "caption": "Group photo after successful plog"
+        },
+        {
+          "id": 9,
+          "url": "/images/gallery/plog-trek/plog-trek-9.webp",
+          "caption": "Protecting nature one trek at a time"
+        }
+      ]
+    },
+    {
+      "id": "vnurture-lake-cleaning",
+      "name": "vNurture Lake Cleaning",
+      "description": "Lake cleaning initiative for cleaner water bodies",
+      "coverImage": "/images/gallery/vnurture-lake-cleaning/vnurture-lake-cleaning-1.webp",
+      "date": "2024-10",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/vnurture-lake-cleaning/vnurture-lake-cleaning-1.webp",
+          "caption": "Lake cleaning initiative launch"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/vnurture-lake-cleaning/vnurture-lake-cleaning-2.webp",
+          "caption": "Team working on lake restoration"
+        }
+      ]
+    },
+    {
+      "id": "blood-donation",
+      "name": "Blood Donation Camp",
+      "description": "Blood donation drives for Thalassemia children saving lives",
+      "coverImage": "/images/gallery/blood-donation/blood-donation-1.webp",
+      "date": "2024-08",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/blood-donation/blood-donation-1.webp",
+          "caption": "Blood donation camp setup"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/blood-donation/blood-donation-2.webp",
+          "caption": "Volunteers donating blood"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/blood-donation/blood-donation-3.webp",
+          "caption": "Team members supporting blood donation"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/blood-donation/blood-donation-4.webp",
+          "caption": "Medical team assisting donors"
+        },
+        {
+          "id": 5,
+          "url": "/images/gallery/blood-donation/blood-donation-5.webp",
+          "caption": "Saving lives through blood donation"
+        },
+        {
+          "id": 6,
+          "url": "/images/gallery/blood-donation/blood-donation-6.webp",
+          "caption": "Blood donation awareness campaign"
+        },
+        {
+          "id": 7,
+          "url": "/images/gallery/blood-donation/blood-donation-7.webp",
+          "caption": "Team Kavach at blood donation drive"
+        },
+        {
+          "id": 8,
+          "url": "/images/gallery/blood-donation/blood-donation-8.webp",
+          "caption": "Volunteers supporting Thalassemia children"
+        },
+        {
+          "id": 9,
+          "url": "/images/gallery/blood-donation/blood-donation-9.webp",
+          "caption": "Making a difference one donation at a time"
+        }
+      ]
+    },
+    {
+      "id": "rural-govt-school",
+      "name": "Rural Govt School Visit",
+      "description": "Supporting rural government schools through painting and renovation",
+      "coverImage": "/images/gallery/rural-govt-school/rural-govt-school-1.webp",
+      "date": "2024-09",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/rural-govt-school/rural-govt-school-1.webp",
+          "caption": "School painting project kickoff"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/rural-govt-school/rural-govt-school-2.webp",
+          "caption": "Students and team members together"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/rural-govt-school/rural-govt-school-3.webp",
+          "caption": "Teaching and learning together"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/rural-govt-school/rural-govt-school-4.webp",
+          "caption": "Group activities with students"
+        },
+        {
+          "id": 5,
+          "url": "/images/gallery/rural-govt-school/rural-govt-school-5.webp",
+          "caption": "Team engaging with school children"
+        },
+        {
+          "id": 6,
+          "url": "/images/gallery/rural-govt-school/rural-govt-school-6.webp",
+          "caption": "Educational activities at rural school"
+        },
+        {
+          "id": 7,
+          "url": "/images/gallery/rural-govt-school/rural-govt-school-7.webp",
+          "caption": "Students participating in programs"
+        },
+        {
+          "id": 8,
+          "url": "/images/gallery/rural-govt-school/rural-govt-school-8.webp",
+          "caption": "Making a difference in rural education"
+        }
+      ]
+    },
+    {
+      "id": "rural-exam-kit",
+      "name": "Rural Exam Kit Distribution",
+      "description": "Providing exam kits to rural students for better education",
+      "coverImage": "/images/gallery/rural-exam-kit/rural-exam-kit-1.webp",
+      "date": "2024-07",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/rural-exam-kit/rural-exam-kit-1.webp",
+          "caption": "Exam kit distribution to students"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/rural-exam-kit/rural-exam-kit-2.webp",
+          "caption": "Students receiving exam materials"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/rural-exam-kit/rural-exam-kit-3.webp",
+          "caption": "Supporting rural education"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/rural-exam-kit/rural-exam-kit-4.webp",
+          "caption": "Happy students with exam kits"
+        },
+        {
+          "id": 5,
+          "url": "/images/gallery/rural-exam-kit/rural-exam-kit-5.webp",
+          "caption": "Team distributing educational materials"
+        },
+        {
+          "id": 6,
+          "url": "/images/gallery/rural-exam-kit/rural-exam-kit-6.webp",
+          "caption": "Empowering students through education"
+        },
+        {
+          "id": 7,
+          "url": "/images/gallery/rural-exam-kit/rural-exam-kit-7.webp",
+          "caption": "Students in assembly"
+        },
+        {
+          "id": 8,
+          "url": "/images/gallery/rural-exam-kit/rural-exam-kit-8.webp",
+          "caption": "Students receiving books and stationery"
+        }
+      ]
+    },
+    {
+      "id": "govt-school-college",
+      "name": "Govt School & College Programs",
+      "description": "Educational support and teaching programs at government institutions",
+      "coverImage": "/images/gallery/govt-school-college/govt-school-college-1.webp",
+      "date": "2024-05",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/govt-school-college/govt-school-college-1.webp",
+          "caption": "Teaching session at government school"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/govt-school-college/govt-school-college-2.webp",
+          "caption": "Interactive learning with students"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/govt-school-college/govt-school-college-3.webp",
+          "caption": "Educational activities with children"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/govt-school-college/govt-school-college-4.webp",
+          "caption": "Team engaging with students"
+        },
+        {
+          "id": 5,
+          "url": "/images/gallery/govt-school-college/govt-school-college-5.webp",
+          "caption": "Teaching program in action"
+        },
+        {
+          "id": 6,
+          "url": "/images/gallery/govt-school-college/govt-school-college-6.webp",
+          "caption": "Students participating in activities"
+        },
+        {
+          "id": 7,
+          "url": "/images/gallery/govt-school-college/govt-school-college-7.webp",
+          "caption": "Educational support initiative"
+        },
+        {
+          "id": 8,
+          "url": "/images/gallery/govt-school-college/govt-school-college-8.webp",
+          "caption": "Classroom interaction with students"
+        },
+        {
+          "id": 9,
+          "url": "/images/gallery/govt-school-college/govt-school-college-9.webp",
+          "caption": "Team teaching at government college"
+        },
+        {
+          "id": 10,
+          "url": "/images/gallery/govt-school-college/govt-school-college-10.webp",
+          "caption": "Learning activities for students"
+        },
+        {
+          "id": 11,
+          "url": "/images/gallery/govt-school-college/govt-school-college-11.webp",
+          "caption": "Educational program session"
+        },
+        {
+          "id": 12,
+          "url": "/images/gallery/govt-school-college/govt-school-college-12.webp",
+          "caption": "Students engaged in learning"
+        },
+        {
+          "id": 13,
+          "url": "/images/gallery/govt-school-college/govt-school-college-13.webp",
+          "caption": "Group activity with students"
+        },
+        {
+          "id": 14,
+          "url": "/images/gallery/govt-school-college/govt-school-college-14.webp",
+          "caption": "Teaching team with students"
+        },
+        {
+          "id": 15,
+          "url": "/images/gallery/govt-school-college/govt-school-college-15.webp",
+          "caption": "Educational support in rural areas"
+        },
+        {
+          "id": 16,
+          "url": "/images/gallery/govt-school-college/govt-school-college-16.webp",
+          "caption": "Students learning new concepts"
+        },
+        {
+          "id": 17,
+          "url": "/images/gallery/govt-school-college/govt-school-college-17.webp",
+          "caption": "Interactive teaching session"
+        },
+        {
+          "id": 18,
+          "url": "/images/gallery/govt-school-college/govt-school-college-18.webp",
+          "caption": "Team members with students"
+        },
+        {
+          "id": 19,
+          "url": "/images/gallery/govt-school-college/govt-school-college-19.webp",
+          "caption": "Educational outreach program"
+        },
+        {
+          "id": 20,
+          "url": "/images/gallery/govt-school-college/govt-school-college-20.webp",
+          "caption": "Group photo with students"
+        },
+        {
+          "id": 21,
+          "url": "/images/gallery/govt-school-college/govt-school-college-21.webp",
+          "caption": "Making education accessible for all"
+        }
+      ]
+    },
+    {
+      "id": "team-group-photos",
+      "name": "Team Group Photos",
+      "description": "Team Kavach family moments and gatherings",
+      "coverImage": "/images/gallery/team-group-photos/team-group-photos-1.webp",
+      "date": "2024-12",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/team-group-photos/team-group-photos-1.webp",
+          "caption": "Team Kavach family together"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/team-group-photos/team-group-photos-2.webp",
+          "caption": "Volunteers celebrating together"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/team-group-photos/team-group-photos-3.webp",
+          "caption": "Team gathering and bonding"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/team-group-photos/team-group-photos-4.webp",
+          "caption": "Kavach team group photo"
+        },
+        {
+          "id": 5,
+          "url": "/images/gallery/team-group-photos/team-group-photos-5.webp",
+          "caption": "Our amazing volunteer family"
+        }
+      ]
+    },
+    {
+      "id": "official-registration",
+      "name": "Official Registration",
+      "description": "Team Kavach official registration milestones",
+      "coverImage": "/images/gallery/official-registration/official-registration-1.webp",
+      "date": "2022-05",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/official-registration/official-registration-1.webp",
+          "caption": "Official registration ceremony"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/official-registration/official-registration-2.webp",
+          "caption": "Celebrating official recognition"
+        }
+      ]
+    }
+  ]
+}
