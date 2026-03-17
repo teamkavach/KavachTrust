@@ -48,7 +48,7 @@ export default function Programs() {
       title: 'Health & Welfare Drives',
       tagline: 'Caring for the Vulnerable',
       description: 'Blood donation camps for thalassemia patients, sanitary kit distribution for BBMP women workers, and umbrella donations for street vendors during summer.',
-      impact: ['50,000+ ml blood collected', '400+ sanitary kits donated', '50+ umbrellas distributed','Engagement with Thalassemia Child Care Center', 'Medication support to pediatric cancer patients at the Indira Gandhi Institute of Child Health'],
+      impact: ['50,000+ ml blood collected', '400+ sanitary kits donated', '10+ umbrellas distributed','Engagement with Thalassemia Child Care Center', 'Medication support to pediatric cancer patients at the Indira Gandhi Institute of Child Health'],
       color: 'bg-primary',
       gradient: 'from-red-900 to-red-700',
       image: '/images/gallery/blood-donation/blood-donation-5.webp'
