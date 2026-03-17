@@ -40,3 +40,17 @@ KAVACH_PROJECT_NOTES.md
 .env
 .env.local
 .env.production
+
+# Playwright artifacts
+playwright-report/
+test-results/
+blob-report/
+playwright-*.json
+
+# Local AI tooling
+.claude/
+.agents/
+.junie/
+CLAUDE.md
+skills-lock.json
+.github/skills/
