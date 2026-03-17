@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { stories } from '../data/stories';
 import { useNavigate } from 'react-router-dom';
@@ -6,6 +6,8 @@ import { motion } from 'framer-motion';
 import { Badge } from '../components/Badge';
 
 const Stories: React.FC = () => {
+  useEffect(() => { document.title = 'Stories | Team Kavach'; }, []);
+
   const navigate = useNavigate();
 
   return (

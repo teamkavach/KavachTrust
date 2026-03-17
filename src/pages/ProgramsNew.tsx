@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import IconSchool from '@tabler/icons-react/dist/esm/icons/IconSchool';
@@ -30,13 +30,15 @@ const Section: React.FC<{ children: React.ReactNode; className?: string }> = ({
 };
 
 export default function Programs() {
+  useEffect(() => { document.title = 'Programs | Team Kavach'; }, []);
+
   const programs = [
     {
       icon: IconSchool,
       title: 'Education & Youth Empowerment',
       tagline: 'Empowering Through Learning',
       description: 'From teaching Computer Science and English in government schools to distributing exam kits and recycling notebooks, we equip students with tools for success.',
-      impact: ['3000+ notebooks recycled', '1700 recycled books distributed', '150+ exam kits distributed', '50+ teaching hours', 'Rural school rejuvenation project', 'Career counselling and soft skill training to govt schools and colleges'],
+      impact: ['3000+ notebooks recycled', '1700 recycled books distributed', '150+ exam kits distributed', '50+ teaching hours (CS & English)', 'Rural school rejuvenation project', 'Career counselling and soft skill training to govt schools and colleges'],
       color: 'bg-blue-500',
       gradient: 'from-blue-500 to-cyan-500',
       image: '/images/gallery/govt-school-college/govt-school-college-10.webp'
@@ -66,7 +68,7 @@ export default function Programs() {
       title: 'Environmental Conservation',
       tagline: 'Protecting Our Planet',
       description: 'Plog Treks at Shivagange Hills, lake cleaning using natural bio-enzymes from vNurture initiative, and promoting eco-friendly practices.',
-      impact: ['600+ kg plastic cleaned', '4+ years of Plog Treks', 'Bio-enzyme lake cleaning', 'Zero-chemical approach', 'Mango Seed Collection and Plantation Drive'],
+      impact: ['800+ kg plastic cleaned', '5+ years of Plog Treks', 'Bio-enzyme lake cleaning', 'Zero-chemical approach', 'Mango Seed Collection and Plantation Drive'],
       color: 'bg-green-500',
       gradient: 'from-green-500 to-emerald-500',
       image: '/images/gallery/plog-trek/plog-trek-6.webp'
@@ -107,7 +109,7 @@ export default function Programs() {
               <span className="text-secondary">Creating Impact</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
-              Focused initiatives across education, healthcare, and community development designed to create lasting change in Bangalore
+              Focused initiatives across education, healthcare, and community development designed to create lasting change in Bangalore.
             </p>
           </motion.div>
         </div>

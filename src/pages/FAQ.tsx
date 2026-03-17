@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import IconChevronDown from '@tabler/icons-react/dist/esm/icons/IconChevronDown';
 import IconSparkles from '@tabler/icons-react/dist/esm/icons/IconSparkles';
 import { faqs } from '../data/mockData';
 
 const FAQ: React.FC = () => {
+  useEffect(() => { document.title = 'FAQ | Team Kavach'; }, []);
+
   const [openId, setOpenId] = useState<string | null>(null);
 
   return (
@@ -29,7 +31,7 @@ const FAQ: React.FC = () => {
               Frequently Asked <span className="text-white/90">Questions</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
-              Find answers to common questions about volunteering with Team Kavach
+              Find answers to common questions about volunteering with Team Kavach.
             </p>
           </motion.div>
         </div>

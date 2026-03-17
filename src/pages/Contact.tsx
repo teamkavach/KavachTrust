@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import IconMail from '@tabler/icons-react/dist/esm/icons/IconMail';
 import IconPhone from '@tabler/icons-react/dist/esm/icons/IconPhone';
@@ -31,6 +31,8 @@ const Section: React.FC<{ children: React.ReactNode; className?: string }> = ({
 };
 
 const Contact: React.FC = () => {
+  useEffect(() => { document.title = 'Contact | Team Kavach'; }, []);
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',

@@ -41,6 +41,8 @@ const Section: React.FC<{ children: React.ReactNode; className?: string }> = ({
 };
 
 export default function Home() {
+  useEffect(() => { document.title = 'Team Kavach | Sharing Warmth, Nurturing Dreams'; }, []);
+
   const heroRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: heroRef,
@@ -116,7 +118,7 @@ export default function Home() {
       icon: IconSchool,
       title: 'Education',
       description: 'Teaching programs, exam kit distribution, and notebook recycling drives for government schools',
-      impact: '760+ notebooks recycled',
+      impact: '3000+ notebooks recycled',
       color: 'bg-blue-500',
       image: '/images/programs/education.webp'
     },
@@ -132,7 +134,7 @@ export default function Home() {
       icon: IconHeartHandshake,
       title: 'Environment',
       description: 'Plog Treks, lake cleaning with bio-enzymes, and umbrella distribution for street vendors',
-      impact: '600+ kg plastic cleaned',
+      impact: '800+ kg plastic cleaned',
       color: 'bg-green-500',
       image: '/images/programs/community.webp'
     }
@@ -209,19 +211,19 @@ export default function Home() {
           </motion.div>
 
           {/* Main Headline - Rotating Taglines */}
-          <div className="mb-4 sm:mb-6 relative min-h-[1.2em]" style={{ minHeight: 'clamp(2.5rem, 10vw, 6rem)' }}>
+          <div className="mb-4 sm:mb-6 relative" style={{ height: 'clamp(4.5rem, 17.6vw, 11rem)' }}>
             <AnimatePresence mode="wait" initial={false}>
               <motion.h1
                 key={`slogan-${currentSlogan}`}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
-                transition={{ 
-                  duration: 0.5, 
+                transition={{
+                  duration: 0.5,
                   ease: "easeInOut"
                 }}
                 style={{ fontSize: 'clamp(2rem, 8vw, 5rem)' }}
-                className="font-black text-white leading-[1.1] tracking-tight"
+                className="absolute inset-0 flex items-center justify-center font-black text-white leading-[1.1] tracking-tight text-center w-full"
               >
                 <span className="bg-gradient-to-r from-white via-yellow-200 to-white bg-clip-text text-transparent">
                   {slogans[currentSlogan].text}
@@ -344,9 +346,6 @@ export default function Home() {
         </motion.div>
       </motion.section>
 
-      {/* Upcoming Event Section - Professional Layout */}
-
-
       {/* What We Do - Bold Statement */}
       <Section className="py-24 bg-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1),transparent_70%)]" />
@@ -378,7 +377,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="mb-4">Our Programs</h2>
             <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
-              Focused initiatives creating measurable impact in education, healthcare, and community development
+              Focused initiatives creating measurable impact in education, healthcare, and community development.
             </p>
           </div>
 

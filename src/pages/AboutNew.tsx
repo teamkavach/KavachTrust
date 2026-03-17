@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
 import IconHeart from '@tabler/icons-react/dist/esm/icons/IconHeart';
@@ -31,6 +31,8 @@ const Section: React.FC<{ children: React.ReactNode; className?: string }> = ({
 };
 
 export default function About() {
+  useEffect(() => { document.title = 'About | Team Kavach'; }, []);
+
   const values = [
     {
       icon: IconHeart,
@@ -91,7 +93,7 @@ export default function About() {
               <span className="text-secondary">Our Story</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
-              We're a passionate community of volunteers dedicated to creating lasting social impact in Bangalore through grassroots initiatives
+              We're a passionate community of volunteers dedicated to creating lasting social impact in Bangalore through grassroots initiatives.
             </p>
           </motion.div>
         </div>
@@ -114,7 +116,7 @@ export default function About() {
                   Our belief is simple: <strong className="font-black">time is the most precious gift</strong>, and contributing it selflessly helps make the world a better, safer place.
                 </p>
                 <p>
-                  Today, we've distributed <strong className="text-primary font-black">1000+ blankets</strong>, collected <strong className="text-primary font-black">50,000+ ml blood</strong>, recycled <strong className="text-primary font-black">600+ kg plastic waste</strong>, and continue to be a protective shield for society's most vulnerable.
+                  Today, we've distributed <strong className="text-primary font-black">1000+ blankets</strong>, collected <strong className="text-primary font-black">50,000+ ml blood</strong>, recycled <strong className="text-primary font-black">800+ kg plastic waste</strong>, and continue to be a protective shield for society's most vulnerable.
                 </p>
               </div>
             </div>
@@ -154,14 +156,17 @@ export default function About() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <motion.div
+            className="grid md:grid-cols-4 gap-8"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1 } } }}
+          >
             {values.map((value, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
+                variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
               >
                 <Card className="h-full border-2 hover:border-primary hover:shadow-xl transition-all">
                   <CardContent className="p-8 text-center">
@@ -174,7 +179,7 @@ export default function About() {
                 </Card>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </Section>
 
@@ -325,7 +330,7 @@ export default function About() {
             Join Our Mission
           </h2>
           <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-            Be part of our journey to create lasting impact in Bangalore
+            Be part of our journey to create lasting impact in Bangalore.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button asChild size="lg" variant="secondary" className="text-lg px-10 h-14 font-bold">

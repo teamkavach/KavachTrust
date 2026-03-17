@@ -16,7 +16,8 @@
       "posterUrl": "/images/events/upcoming/blanket-drive.jpg",
       "registrationLink": "/get-involved",
       "donationLink": "/donate",
-      "isHighlighted": true,
+      "status": "completed",
+      "isHighlighted": false,
       "stats": {
         "target": "500+ Blankets",
         "volunteers": "50+ Volunteers",

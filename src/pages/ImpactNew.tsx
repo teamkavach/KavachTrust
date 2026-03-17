@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
 import IconSchool from '@tabler/icons-react/dist/esm/icons/IconSchool';
@@ -31,6 +31,8 @@ const Section: React.FC<{ children: React.ReactNode; className?: string }> = ({
 };
 
 export default function Impact() {
+  useEffect(() => { document.title = 'Impact | Team Kavach'; }, []);
+
   const programImpact = [
     {
       icon: IconSchool,
@@ -58,8 +60,8 @@ export default function Impact() {
       icon: IconHeartHandshake,
       title: 'Environmental Impact',
       stats: [
-        { label: 'Plastic waste cleaned (kg)', value: '600+' },
-        { label: 'Plog Treks conducted', value: '4+' },
+        { label: 'Plastic waste cleaned (kg)', value: '800+' },
+        { label: 'Plog Treks conducted', value: '5+' },
         { label: 'Lakes cleaned with bio-enzymes', value: '2+' },
         { label: 'Food packets distributed', value: '500+' }
       ],
@@ -112,7 +114,7 @@ export default function Impact() {
               <span className="text-secondary">In Numbers</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
-              Real stories, real numbers, real change—see how we're transforming lives across Bangalore
+              Real stories, real numbers, real change—see how we're transforming lives across Bangalore.
             </p>
           </motion.div>
         </div>
@@ -222,7 +224,7 @@ export default function Impact() {
             Since 2019
           </h2>
           <p className="text-2xl text-foreground/80 mb-12 max-w-3xl mx-auto leading-relaxed">
-            From a small group of 10 volunteers to a thriving community of 150+, our impact grows every day thanks to dedicated changemakers like you
+            From a small group of 10 volunteers to a thriving community of 150+, our impact grows every day thanks to dedicated changemakers like you.
           </p>
         </div>
       </Section>
@@ -236,7 +238,7 @@ export default function Impact() {
             This Impact
           </h2>
           <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-            Your time, skills, and support can help us reach even more lives
+            Your time, skills, and support can help us reach even more lives.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button asChild size="lg" variant="secondary" className="text-lg px-10 h-14 font-bold">
