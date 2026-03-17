@@ -124,7 +124,7 @@ const LazyMedia: React.FC<{
               alt={alt}
               loading="lazy"
               decoding="async"
-              className={`w-full h-full object-cover transition-all duration-500 group-hover:scale-110 ${
+              className={`w-full h-full object-contain bg-white p-2 transition-opacity duration-500 ${
                 isLoaded ? 'opacity-100' : 'opacity-0'
               }`}
               onLoad={() => setIsLoaded(true)}
@@ -241,15 +241,11 @@ export default function ImpactMediaGallery() {
 
         {/* Horizontal Scrolling Media Gallery */}
         <div className="relative">
-          {/* Gradient Overlays for smooth edges */}
-          <div className="hidden lg:block absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white via-white/80 to-transparent z-10 pointer-events-none" />
-          <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white via-white/80 to-transparent z-10 pointer-events-none" />
-          
           {/* Scrollable Container */}
-          <div className="overflow-x-auto pb-4 scrollbar-visible-media px-6 md:px-8 lg:px-10">
-            <div className="flex gap-4 md:gap-6 w-max">
+          <div className="overflow-x-auto pb-4 scrollbar-visible-media px-4 md:px-6 lg:px-8 scroll-smooth snap-x snap-mandatory scroll-px-4 md:scroll-px-6 lg:scroll-px-8">
+            <div className="flex gap-4 md:gap-6 w-max pr-4 md:pr-6 lg:pr-8">
               {impactMedia.map((media, index) => (
-                <div key={index} className="flex-shrink-0 w-[85vw] sm:w-[75vw] md:w-[60vw] lg:w-[45vw] xl:w-[35vw] max-w-[600px]">
+                <div key={index} className="flex-shrink-0 snap-start w-[85vw] sm:w-[75vw] md:w-[60vw] lg:w-[45vw] xl:w-[35vw] max-w-[600px]">
                   <LazyMedia
                     type={media.type}
                     src={media.src}
