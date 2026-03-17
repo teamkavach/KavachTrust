@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
 import IconUsers from '@tabler/icons-react/dist/esm/icons/IconUsers';
@@ -33,6 +33,8 @@ const Section: React.FC<{ children: React.ReactNode; className?: string }> = ({
 };
 
 export default function GetInvolved() {
+  useEffect(() => { document.title = 'Get Involved | Team Kavach'; }, []);
+
   const volunteerOptions = [
     {
       title: 'Field Volunteer',
@@ -102,7 +104,7 @@ export default function GetInvolved() {
               <span className="text-secondary">Make an Impact</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
-              Join our community of passionate volunteers creating real change in Bangalore through education, healthcare, and social initiatives
+              Join our community of passionate volunteers creating real change in Bangalore through education, healthcare, and social initiatives.
             </p>
           </motion.div>
         </div>
@@ -114,7 +116,7 @@ export default function GetInvolved() {
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="mb-4 sm:mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black">Why Volunteer With Us?</h2>
             <p className="text-base sm:text-lg md:text-xl text-foreground/70 max-w-3xl mx-auto">
-              Volunteering is more than giving your time—it's about building connections, developing skills, and being part of something bigger
+              Volunteering is more than giving your time—it's about building connections, developing skills, and being part of something bigger.
             </p>
           </div>
 
@@ -150,18 +152,21 @@ export default function GetInvolved() {
           <div className="text-center mb-16">
             <h2 className="mb-4">Choose Your Role</h2>
             <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
-              Multiple ways to contribute based on your skills, interests, and availability
+              Multiple ways to contribute based on your skills, interests, and availability.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <motion.div
+            className="grid md:grid-cols-3 gap-8"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1 } } }}
+          >
             {volunteerOptions.map((option, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
+                variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
               >
                 <Card className="h-full border-2 hover:border-primary hover:shadow-2xl transition-all duration-300">
                   <CardContent className="p-8">
@@ -195,7 +200,7 @@ export default function GetInvolved() {
                 </Card>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </Section>
 

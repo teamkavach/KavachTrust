@@ -82,6 +82,8 @@ const LazyImage: React.FC<{
 };
 
 const Gallery: React.FC = () => {
+  useEffect(() => { document.title = 'Gallery | Team Kavach'; }, []);
+
   const [galleryData, setGalleryData] = useState<GalleryData>({ events: [] });
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
   const [selectedPhoto, setSelectedPhoto] = useState<Photo | null>(null);
@@ -305,7 +307,7 @@ const Gallery: React.FC = () => {
               <span className="text-secondary">Stories in Pictures</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
-              Witness the moments that define our mission—real people, real impact, real change across Bangalore
+              Witness the moments that define our mission—real people, real impact, real change across Bangalore.
             </p>
           </motion.div>
         </div>

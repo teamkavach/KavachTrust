@@ -33,6 +33,13 @@ LightHouse_reports/
 # Temp files
 tmpclaude-*
 
+# AI agent tooling (Claude Code, skills, etc.)
+.claude/
+.agents/
+.junie/
+CLAUDE.md
+skills-lock.json
+
 # Project notes (contains sensitive keys)
 KAVACH_PROJECT_NOTES.md
 

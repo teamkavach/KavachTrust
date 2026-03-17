@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import IconCopy from '@tabler/icons-react/dist/esm/icons/IconCopy';
@@ -8,6 +8,8 @@ import IconHeart from '@tabler/icons-react/dist/esm/icons/IconHeart';
 import IconSparkles from '@tabler/icons-react/dist/esm/icons/IconSparkles';
 
 const Donate: React.FC = () => {
+  useEffect(() => { document.title = 'Donate | Team Kavach'; }, []);
+
   const [copiedUPI, setCopiedUPI] = useState(false);
   const [copiedAccount, setCopiedAccount] = useState(false);
 
@@ -49,7 +51,7 @@ const Donate: React.FC = () => {
               <span className="text-secondary">Make a Difference</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
-              Your donation helps us reach more communities and create lasting change
+              Your donation helps us reach more communities and create lasting change.
             </p>
           </motion.div>
         </div>
@@ -73,7 +75,7 @@ const Donate: React.FC = () => {
                   MISSION <span className="text-primary">WINTER RELIEF</span>
                 </h2>
                 <p className="text-base sm:text-lg text-muted-foreground mb-8">
-                  Spreading warmth, one blanket at a time
+                  Spreading warmth, one blanket at a time.
                 </p>
                 <div className="grid grid-cols-3 gap-4 sm:gap-8 max-w-2xl mx-auto">
                   <div className="text-center p-4 bg-gray-50 rounded-xl">
