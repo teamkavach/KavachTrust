@@ -15,6 +15,7 @@ import IconStar from '@tabler/icons-react/dist/esm/icons/IconStar';
 import IconSunrise from '@tabler/icons-react/dist/esm/icons/IconSunrise';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import ImpactMediaGallery from '@/components/ImpactMediaGallery';
 
 // Animated Section Wrapper - Optimized for mobile
 const Section: React.FC<{ children: React.ReactNode; className?: string }> = ({ 
@@ -346,28 +347,12 @@ export default function Home() {
         </motion.div>
       </motion.section>
 
-      {/* What We Do - Bold Statement */}
+      {/* What We Do - Bold Statement with Media Gallery */}
       <Section className="py-24 bg-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1),transparent_70%)]" />
         
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.h2
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mb-6 text-white"
-          >
-            What Happens When We Care
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="text-lg md:text-xl text-white/90 leading-relaxed max-w-3xl mx-auto"
-          >
-            Real change happens when communities come together. Through dedicated volunteers and compassionate action, we're transforming lives across Bangalore.
-          </motion.p>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ImpactMediaGallery />
         </div>
       </Section>
 

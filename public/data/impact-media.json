@@ -1,0 +1,31 @@
+{
+  "impactMedia": [
+    {
+      "type": "youtube",
+      "src": "https://youtu.be/tnqgML-MnBw?si=4sVS3x2yTaVqfYqZ",
+      "alt": "Team Kavach Impact Story"
+    },
+    {
+      "type": "press",
+      "src": "https://www.newindianexpress.com/good-news/2020/Feb/10/band-of-bengaluru-youngsters-gives-kavacha-to-homeless-needy-2101318.html",
+      "headline": "Band of Bengaluru youngsters gives 'kavacha' to homeless, needy",
+      "publication": "The New Indian Express",
+      "date": "February 10, 2020",
+      "alt": "Team Kavach featured in The New Indian Express"
+    },
+    {
+      "type": "press",
+      "src": "https://indianexpress.com/article/cities/bangalore/vishwala-patel-biker-kavach-change-ngo-social-work-9394213/",
+      "headline": "Vishwala Patel: The biker driving change through Kavach",
+      "publication": "The Indian Express",
+      "date": "June 2024",
+      "alt": "Vishwala Patel featured in The Indian Express for social work through Kavach"
+    },
+    {
+      "type": "image",
+      "src": "/images/press/HosaDigantha.webp",
+      "alt": "Team Kavach featured in Hosa Digantha newspaper"
+    }
+  ],
+  "_comment": "Supported types: 'image', 'video', 'youtube', 'press'. Press format: { \"type\": \"press\", \"src\": \"article-url\", \"headline\": \"Article Title\", \"publication\": \"Newspaper Name\", \"date\": \"Month Day, Year\", \"alt\": \"Description\" }. YouTube: use full URL. Video: { \"type\": \"video\", \"src\": \"/videos/video.mp4\", \"poster\": \"/images/thumb.webp\", \"alt\": \"Description\" }"
+}
