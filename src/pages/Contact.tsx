@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
     {
       icon: IconMapPin,
       title: 'Address',
-      value: 'Bangalore, Karnataka, India',
+      value: '921, 3rd Main Rd, D-Block, 2nd Stage, Rajajinagar, Bengaluru, Karnataka 560010',
       href: null
     }
   ];

@@ -95,7 +95,7 @@ export default function GetInvolved() {
           >
             <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
               <IconSparkles className="w-5 h-5" />
-              <span className="text-sm font-bold">Join 150+ Volunteers</span>
+              <span className="text-sm font-bold">Join 180+ Volunteers</span>
             </div>
             
             <h1 className="text-white mb-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black">
@@ -116,7 +116,7 @@ export default function GetInvolved() {
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="mb-4 sm:mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black">Why Volunteer With Us?</h2>
             <p className="text-base sm:text-lg md:text-xl text-foreground/70 max-w-3xl mx-auto">
-              Volunteering is more than giving your time—it's about building connections, developing skills, and being part of something bigger.
+              Volunteering is more than just giving your time—it's about building connections, developing skills, and being part of something bigger.
             </p>
           </div>
 

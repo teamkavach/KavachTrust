@@ -4,9 +4,9 @@
       "id": "blanket-distribution",
       "name": "Blanket Distribution",
       "description": "Winter blanket distribution drives across Bangalore",
-      "coverImage": "/images/gallery/blanket-distribution/thumb.webp",
+      "coverImage": "/images/gallery/blanket-distribution/blanket-distribution-8.webp",
       "date": "2025-01",
-      "photoCount": 5
+      "photoCount": 8
     },
     {
       "id": "umbrella-distribution",
@@ -22,7 +22,7 @@
       "description": "Trekking with a purpose - cleaning trails while trekking",
       "coverImage": "/images/gallery/plog-trek/thumb.webp",
       "date": "2024-11",
-      "photoCount": 9
+      "photoCount": 11
     },
     {
       "id": "vnurture-lake-cleaning",
@@ -38,7 +38,7 @@
       "description": "Blood donation drives for Thalassemia children saving lives",
       "coverImage": "/images/gallery/blood-donation/thumb.webp",
       "date": "2024-08",
-      "photoCount": 8
+      "photoCount": 12
     },
     {
       "id": "rural-govt-school",
@@ -79,6 +79,22 @@
       "coverImage": "/images/gallery/official-registration/thumb.webp",
       "date": "2022-05",
       "photoCount": 2
+    },
+    {
+      "id": "post-drying",
+      "name": "Art work",
+      "description": "Showcasing the artistic creations by Team Kavach members",
+      "coverImage": "/images/gallery/post-drying/post-drying-35.webp",
+      "date": "2024-06",
+      "photoCount": 35
+    },
+    {
+      "id": "badmintion",
+      "name": "Badminton",
+      "description": "Badminton tournament and sports activities",
+      "coverImage": "/images/gallery/badmintion/badmintion-6.webp",
+      "date": "2025-01",
+      "photoCount": 7
     }
   ]
 }
