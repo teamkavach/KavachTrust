@@ -4,7 +4,7 @@
       "id": "blanket-distribution",
       "name": "Blanket Distribution",
       "description": "Winter blanket distribution drives across Bangalore",
-      "coverImage": "/images/gallery/blanket-distribution/blanket-distribution-1.webp",
+      "coverImage": "/images/gallery/blanket-distribution/blanket-distribution-8.webp",
       "date": "2025-01",
       "photos": [
         {
@@ -31,6 +31,21 @@
           "id": 5,
           "url": "/images/gallery/blanket-distribution/blanket-distribution-5.webp",
           "caption": "Happy beneficiaries receiving blankets"
+        },
+        {
+          "id": 6,
+          "url": "/images/gallery/blanket-distribution/blanket-distribution-6.webp",
+          "caption": "Volunteers assisting in distribution"
+        },
+        {
+          "id": 7,
+          "url": "/images/gallery/blanket-distribution/blanket-distribution-7.webp",
+          "caption": "Volunteers assisting in distribution"
+        },
+        {
+          "id": 8,
+          "url": "/images/gallery/blanket-distribution/blanket-distribution-8.webp",
+          "caption": "Volunteers assisting in distribution"
         }
       ]
     },
@@ -109,6 +124,16 @@
           "id": 9,
           "url": "/images/gallery/plog-trek/plog-trek-9.webp",
           "caption": "Protecting nature one trek at a time"
+        },
+        {
+          "id": 10,
+          "url": "/images/gallery/plog-trek/plog-trek-10.webp",
+          "caption": "Protecting nature one trek at a time"
+        },
+        {
+          "id": 11,
+          "url": "/images/gallery/plog-trek/plog-trek-11.webp",
+          "caption": "Protecting nature one trek at a time"
         }
       ]
     },
@@ -182,6 +207,21 @@
           "id": 9,
           "url": "/images/gallery/blood-donation/blood-donation-9.webp",
           "caption": "Making a difference one donation at a time"
+        },
+        {
+          "id": 10,
+          "url": "/images/gallery/blood-donation/blood-donation-10.webp",
+          "caption": "Blood donation drive in action"
+        },
+        {
+          "id": 11,
+          "url": "/images/gallery/blood-donation/blood-donation-11.webp",
+          "caption": "Community coming together to donate blood"
+        },
+        {
+          "id": 12,
+          "url": "/images/gallery/blood-donation/blood-donation-12.webp",
+          "caption": "Successful blood donation camp"
         }
       ]
     },
@@ -447,6 +487,234 @@
           "id": 2,
           "url": "/images/gallery/official-registration/official-registration-2.webp",
           "caption": "Celebrating official recognition"
+        }
+      ]
+    },
+    {
+      "id": "post-drying",
+      "name": "Art Work",
+      "description": "Showcasing the artistic creations by Team Kavach members",
+      "coverImage": "/images/gallery/post-drying/post-drying-35.webp",
+      "date": "2024-06",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/post-drying/post-drying-1.webp",
+          "caption": "Post drying process documentation"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/post-drying/post-drying-2.webp",
+          "caption": "Dried materials ready for art"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/post-drying/post-drying-3.webp",
+          "caption": "Preparation for artwork"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/post-drying/post-drying-4.webp",
+          "caption": "Materials laid out for drying"
+        },
+        {
+          "id": 5,
+          "url": "/images/gallery/post-drying/post-drying-5.webp",
+          "caption": "Drying process in action"
+        },
+        {
+          "id": 6,
+          "url": "/images/gallery/post-drying/post-drying-6.webp",
+          "caption": "Organized drying setup"
+        },
+        {
+          "id": 7,
+          "url": "/images/gallery/post-drying/post-drying-7.webp",
+          "caption": "Posts drying in the sun"
+        },
+        {
+          "id": 8,
+          "url": "/images/gallery/post-drying/post-drying-8.webp",
+          "caption": "Community members participating"
+        },
+        {
+          "id": 9,
+          "url": "/images/gallery/post-drying/post-drying-9.webp",
+          "caption": "Drying station setup"
+        },
+        {
+          "id": 10,
+          "url": "/images/gallery/post-drying/post-drying-10.webp",
+          "caption": "Careful arrangement of materials"
+        },
+        {
+          "id": 11,
+          "url": "/images/gallery/post-drying/post-drying-11.webp",
+          "caption": "Team working together"
+        },
+        {
+          "id": 12,
+          "url": "/images/gallery/post-drying/post-drying-12.webp",
+          "caption": "Systematic drying process"
+        },
+        {
+          "id": 13,
+          "url": "/images/gallery/post-drying/post-drying-13.webp",
+          "caption": "Project documentation"
+        },
+        {
+          "id": 14,
+          "url": "/images/gallery/post-drying/post-drying-14.webp",
+          "caption": "Volunteers coordinating work"
+        },
+        {
+          "id": 15,
+          "url": "/images/gallery/post-drying/post-drying-15.webp",
+          "caption": "Evening work session"
+        },
+        {
+          "id": 16,
+          "url": "/images/gallery/post-drying/post-drying-16.webp",
+          "caption": "Completed drying phase"
+        },
+        {
+          "id": 17,
+          "url": "/images/gallery/post-drying/post-drying-17.webp",
+          "caption": "Final preparations complete"
+        },
+        {
+          "id": 18,
+          "url": "/images/gallery/post-drying/post-drying-18.webp",
+          "caption": "Community artwork on dried posts"
+        },
+        {
+          "id": 19,
+          "url": "/images/gallery/post-drying/post-drying-19.webp",
+          "caption": "Colorful designs by local artists"
+        },
+        {
+          "id": 20,
+          "url": "/images/gallery/post-drying/post-drying-20.webp",
+          "caption": "Creative expression through art"
+        },
+        {
+          "id": 21,
+          "url": "/images/gallery/post-drying/post-drying-21.webp",
+          "caption": "Detailed artwork in progress"
+        },
+        {
+          "id": 22,
+          "url": "/images/gallery/post-drying/post-drying-22.webp",
+          "caption": "Vibrant community art project"
+        },
+        {
+          "id": 23,
+          "url": "/images/gallery/post-drying/post-drying-23.webp",
+          "caption": "Artistic patterns and designs"
+        },
+        {
+          "id": 24,
+          "url": "/images/gallery/post-drying/post-drying-24.webp",
+          "caption": "Community members creating art"
+        },
+        {
+          "id": 25,
+          "url": "/images/gallery/post-drying/post-drying-25.webp",
+          "caption": "Painting dried posts with colors"
+        },
+        {
+          "id": 26,
+          "url": "/images/gallery/post-drying/post-drying-26.webp",
+          "caption": "Art bringing community together"
+        },
+        {
+          "id": 27,
+          "url": "/images/gallery/post-drying/post-drying-27.webp",
+          "caption": "Creative designs taking shape"
+        },
+        {
+          "id": 28,
+          "url": "/images/gallery/post-drying/post-drying-28.webp",
+          "caption": "Artistic transformation of materials"
+        },
+        {
+          "id": 29,
+          "url": "/images/gallery/post-drying/post-drying-29.webp",
+          "caption": "Colorful community artwork"
+        },
+        {
+          "id": 30,
+          "url": "/images/gallery/post-drying/post-drying-30.webp",
+          "caption": "Unique patterns and expressions"
+        },
+        {
+          "id": 31,
+          "url": "/images/gallery/post-drying/post-drying-31.webp",
+          "caption": "Art project collaboration"
+        },
+        {
+          "id": 32,
+          "url": "/images/gallery/post-drying/post-drying-32.webp",
+          "caption": "Volunteers working on designs"
+        },
+        {
+          "id": 33,
+          "url": "/images/gallery/post-drying/post-drying-33.webp",
+          "caption": "Creative community initiative"
+        },
+        {
+          "id": 34,
+          "url": "/images/gallery/post-drying/post-drying-34.webp",
+          "caption": "Beautiful artwork display"
+        },
+        {
+          "id": 35,
+          "url": "/images/gallery/post-drying/post-drying-35.webp",
+          "caption": "Final artwork showcase"
+        }
+      ]
+    },
+    {
+      "id": "badmintion",
+      "name": "Badminton",
+      "description": "Badminton tournament and sports activities",
+      "coverImage": "/images/gallery/badmintion/badmintion-6.webp",
+      "date": "2025-01",
+      "photos": [
+        {
+          "id": 1,
+          "url": "/images/gallery/badmintion/badmintion-1.webp",
+          "caption": "Badminton tournament action"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/badmintion/badmintion-2.webp",
+          "caption": "Players competing on court"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/badmintion/badmintion-3.webp",
+          "caption": "Team Kavach sports event"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/badmintion/badmintion-4.webp",
+          "caption": "Volunteers enjoying badminton"
+        },
+        {
+          "id": 5,
+          "url": "/images/gallery/badmintion/badmintion-5.webp",
+          "caption": "Sports and recreation activity"
+        },
+        {
+          "id": 6,
+          "url": "/images/gallery/badmintion/badmintion-6.webp",
+          "caption": "Friendly badminton matches"
+        },
+        {
+          "id": 7,
+          "url": "/images/gallery/badmintion/badmintion-7.webp",
+          "caption": "Team bonding through sports"
         }
       ]
     }

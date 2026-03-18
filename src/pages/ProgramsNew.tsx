@@ -71,7 +71,7 @@ export default function Programs() {
       impact: ['800+ kg plastic cleaned', '5+ years of Plog Treks', 'Bio-enzyme lake cleaning', 'Zero-chemical approach', 'Mango Seed Collection and Plantation Drive'],
       color: 'bg-green-500',
       gradient: 'from-green-500 to-emerald-500',
-      image: '/images/gallery/plog-trek/plog-trek-6.webp'
+      image: '/images/programs/EnvironmentalConservation.webp'
     },
     {
       icon: IconTrophy,
