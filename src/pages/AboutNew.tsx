@@ -62,11 +62,12 @@ export default function About() {
 
   const milestones = [
     { year: '2019', title: 'Founded', desc: 'Team Kavach established with first Blanket Distribution Drive' },
-    { year: '2020', title: 'Environmental', desc: 'Started Plog Treks & Lake Cleaning initiatives' },
+    { year: '2020', title: 'Covid Relief', desc: 'Distributed hygiene kits' },
     { year: '2021', title: 'Blood Donation', desc: 'Launched targeted blood donation camps' },
-    { year: '2022', title: 'Education', desc: 'Started teaching programs in government schools' },
-    { year: '2024', title: 'School Painting', desc: 'Renovated Government School with 80+ volunteers' },
-    { year: '2025', title: 'Notebook Drive', desc: 'Recycled 760+ notebooks with 480+ volunteers' }
+    { year: '2022', title: 'Environmental', desc: 'Started Plog Treks & Lake Cleaning initiatives' },
+    { year: '2023', title: 'Education', desc: 'Started teaching programs in government schools' },
+    { year: '2024', title: 'School Rejuvenation', desc: 'Renovated Rural Government School with 80+ volunteers' },
+    { year: '2025', title: 'Notebook Drive', desc: 'Recycled 3000+ notebooks with 100+ volunteers' }
   ];
 
   return (
@@ -282,7 +283,7 @@ export default function About() {
           <IconQuote className="w-16 h-16 mx-auto mb-8 text-primary/30" strokeWidth={1.5} />
           <h2 className="mb-8 text-foreground">Our Mission</h2>
           <p className="text-3xl md:text-4xl font-black leading-tight max-w-4xl mx-auto mb-12">
-            "To safeguard those around us from various life challenges—Cold, Hunger, Illiteracy, Unemployment, Pollution, Infections, and Heat—by responding with compassion, innovation, and collective action."
+            "To be the Kavach for those around us facing various life challenges like cold, hunger, illiteracy, poverty, pollution, infections and heat, <br />by responding with compassion, innovation and collective action."
           </p>
         </div>
       </Section>
@@ -290,7 +291,7 @@ export default function About() {
       {/* Team Section */}
       <Section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="mb-6">Meet Our Team</h2>
+          <h2 className="mb-6">Our Team</h2>
           <p className="text-xl text-foreground/70 mb-12 max-w-2xl mx-auto">
             Led by passionate volunteers committed to social change
           </p>
@@ -310,7 +311,7 @@ export default function About() {
               <IconUsers className="w-24 h-24 mx-auto mb-6" strokeWidth={1.5} />
               <h3 className="text-4xl font-black mb-4 text-white">150+ Volunteers</h3>
               <p className="text-xl text-white/90 max-w-2xl mx-auto mb-8">
-                Students, professionals, and community leaders united by a common goal—creating positive change
+                Students, professionals and community leaders united by a common goal creating a positive change
               </p>
               <Button asChild size="lg" className="bg-white text-primary hover:bg-white/90 font-bold">
                 <Link to="/get-involved">

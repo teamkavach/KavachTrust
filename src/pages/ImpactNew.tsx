@@ -38,7 +38,7 @@ export default function Impact() {
       icon: IconSchool,
       title: 'Education & Youth Impact',
       stats: [
-        { label: 'Notebooks recycled', value: '760+' },
+        { label: 'Notebooks recycled', value: '3000+' },
         { label: 'Exam kits distributed', value: '150+' },
         { label: 'Teaching hours (CS & English)', value: '50+' },
         { label: 'School renovations', value: '1' }
@@ -52,7 +52,7 @@ export default function Impact() {
         { label: 'Blood collected (ml)', value: '50,000+' },
         { label: 'Sanitary kits donated', value: '400+' },
         { label: 'Blankets distributed', value: '1000+' },
-        { label: 'Umbrellas donated', value: '100+' }
+        { label: 'Food packets distributed', value: '500+' }
       ],
       gradient: 'from-red-900 to-red-700'
     },
@@ -62,8 +62,8 @@ export default function Impact() {
       stats: [
         { label: 'Plastic waste cleaned (kg)', value: '800+' },
         { label: 'Plog Treks conducted', value: '5+' },
-        { label: 'Lakes cleaned with bio-enzymes', value: '2+' },
-        { label: 'Food packets distributed', value: '500+' }
+        { label: 'Lakes cleaned with bio-enzymes', value: '5+' },
+        { label: 'Mango Seeds Collected (kg)', value: '10+' }
       ],
       gradient: 'from-green-500 to-emerald-500'
     }
@@ -71,21 +71,21 @@ export default function Impact() {
 
   const testimonials = [
     {
-      quote: "Groups like KAVACH, its founders and members are the ones, who make me keep faith in humanity. Young yet responsible, few yet impactful, small steps yet strong vision. They are inspiring, motivating and quietly reminding of the good stuff we all can do. A society and a country becomes better because of these kind of people and their selfless efforts. I feel happy and privileged to have known Vishwala and Kavach. Proud of you guys. Wish you the best in everything you do through Kavach or otherwise.",
+      quote: "KAVACH, along with its founders and members, is the kind of group that restores my faith in humanity. Young yet responsible, few yet impactful, taking small steps guided by a strong vision—they are truly inspiring and motivating, while quietly reminding us of the good we can all contribute. A society and a nation become better because of such individuals and their selfless efforts. I feel happy and privileged to have known Vishwala and KAVACH. I am proud of the team and wish them the very best in everything they do, through KAVACH or otherwise.",
       author: "Mr. Manjunath BN",
-      role: "Principal, Adhyayana PU College, Bangalore",
+      role: "Principal, Janani Adhyayana PU College, Vishweshwaraiah Layout, Bangalore",
       image: ""
     },
     {
-      quote: "Team Kavach volunteers visited our school and distributed notebooks, stationery, and other learning materials to our students. The smiles on the children's faces said it all. What Team Kavach is doing is truly meaningful and inspiring. You have done a wonderful job. May God bless you all abundantly.",
+      quote: "Team KAVACH volunteers visited our school and distributed notebooks to our students—an initiative that left a deep impression on me. In my 32 years of teaching, I have rarely come across such service-minded youngsters. Their thoughtful effort of collecting used notebooks and transforming them into new ones for underprivileged children is both practical and impactful. Their work also brought back memories of my own childhood struggles, when access to books was limited and we often had to reuse the same pages. It is heartening to see such meaningful efforts addressing challenges that still exist for many children today. What Team KAVACH is doing is truly inspiring. I sincerely appreciate their dedication and wish them continued success. May they continue to make a positive difference in many more lives.",
       author: "Vasantha G",
-      role: "Senior Teacher, Nammura Shaale Government Higher Primary School, Kalena Agrahara, Bangalore",
+      role: "Senior Teacher, Nammura Shaale Government Higher Primary School, K Channasandra, Bangalore",
       image: ""
     },
     {
-      quote: "Team Kavach organizes an annual winter blanket distribution drive and has consistently partnered with Inner Wheel Club of Vijayanagar to amplify the reach and impact of this initiative. Their energy, commitment, and sincere desire to serve society are truly commendable. We look forward to many more meaningful collaborations with Team Kavach in the future.",
-      author: "Namratha Rajeev",
-      role: "Inner Wheel Club of Vijayanagar",
+      quote: "Inner Wheel Club of Bangalore Vijayanagar has been associated with Team KAVACH for over six years, and it has been a privilege to collaborate on several meaningful initiatives. Our journey began with their annual blanket distribution drive, a consistent effort to bring warmth and care to those in need. We also partnered on a notebook recycling initiative, where used notebooks were transformed into new ones for underprivileged students—resulting in over a thousand notebooks and promoting both sustainability and access to education. Vishwala has played a key role in strengthening this partnership and expanding its impact. We truly value this association and appreciate Team KAVACH’s dedication to service. We wish them continued success and look forward to many more collaborations ahead.",
+      author: "Namratha H K",
+      role: "Secretary (2025–26), Inner Wheel Club of Bangalore Vijayanagar",
       image: ""
     }
   ];
@@ -109,12 +109,12 @@ export default function Impact() {
             </div>
             
             <h1 className="text-white mb-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black">
-              Your Impact
+              Our Impact
               <br />
               <span className="text-secondary">In Numbers</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
-              Real stories, real numbers, real change—see how we're transforming lives across Bangalore.
+              Real stories, real numbers, real change-see how we're transforming lives across Bangalore.
             </p>
           </motion.div>
         </div>

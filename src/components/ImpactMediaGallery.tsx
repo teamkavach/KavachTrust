@@ -217,7 +217,7 @@ export default function ImpactMediaGallery() {
           transition={{ delay: 0.2 }}
           className="text-lg md:text-xl text-white/90 leading-relaxed max-w-3xl mx-auto"
         >
-          Real change happens when communities come together. Through dedicated volunteers and compassionate action, we're transforming lives across Bangalore.
+          Real change happens when communities come together. Through dedicated volunteers, here is how we are transforming lives across Bengaluru.
         </motion.p>
       </div>
 
