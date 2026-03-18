@@ -118,7 +118,7 @@ export default function Home() {
     {
       icon: IconSchool,
       title: 'Education',
-      description: 'Teaching programs, exam kit distribution, and notebook recycling drives for government schools',
+      description: 'Teaching programs, exam kit distribution, notebook recycling drive, rural school rejuvenation project',
       impact: '3000+ notebooks recycled',
       color: 'bg-blue-500',
       image: '/images/programs/education.webp'
@@ -126,18 +126,18 @@ export default function Home() {
     {
       icon: IconMedicalCross,
       title: 'Healthcare',
-      description: 'Blood donation camps supporting thalassemia patients and sanitary kit distribution',
+      description: 'Blood donation camps supporting thalassemia patients, hygiene kit distribution to BBMP workers, medication support to cancer victims',
       impact: '50,000+ ml blood collected',
       color: 'bg-primary',
-      image: '/images/programs/healthcare.webp'
+      image: '/images/programs/HomepageHealth.webp'
     },
     {
       icon: IconHeartHandshake,
       title: 'Environment',
-      description: 'Plog Treks, lake cleaning with bio-enzymes, and umbrella distribution for street vendors',
+      description: 'Plog Treks, lake cleaning with bio-enzymes, umbrella distribution for street vendors',
       impact: '800+ kg plastic cleaned',
       color: 'bg-green-500',
-      image: '/images/programs/community.webp'
+      image: '/images/programs/HomePageEnvironment.webp'
     }
   ];
 
@@ -168,7 +168,7 @@ export default function Home() {
 
   const volunteersCounter = useCounter(150, 2000);
   const blanketsCounter = useCounter(1000, 2500);
-  const yearsCounter = useCounter(6, 1500);
+  const yearsCounter = useCounter(7, 1500);
 
   return (
     <div className="min-h-screen">

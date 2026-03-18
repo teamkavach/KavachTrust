@@ -81,7 +81,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-3 text-white/90">
                 <IconMapPin className="w-5 h-5" strokeWidth={2} />
-                <span className="font-medium">Bangalore, Karnataka, India</span>
+                <span className="font-medium">921, 3rd Main Rd, D-Block, 2nd Stage, Rajajinagar, Bengaluru, Karnataka 560010</span>
               </div>
             </div>
           </div>
