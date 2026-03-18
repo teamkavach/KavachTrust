@@ -129,7 +129,7 @@ export default function Home() {
       description: 'Blood donation camps supporting thalassemia patients, hygiene kit distribution to BBMP workers, medication support to cancer victims',
       impact: '50,000+ ml blood collected',
       color: 'bg-primary',
-      image: '/images/programs/healthcare.webp'
+      image: '/images/programs/HomepageHealth.webp'
     },
     {
       icon: IconHeartHandshake,
@@ -137,7 +137,7 @@ export default function Home() {
       description: 'Plog Treks, lake cleaning with bio-enzymes, umbrella distribution for street vendors',
       impact: '800+ kg plastic cleaned',
       color: 'bg-green-500',
-      image: '/images/programs/community.webp'
+      image: '/images/programs/HomePageEnvironment.webp'
     }
   ];
 

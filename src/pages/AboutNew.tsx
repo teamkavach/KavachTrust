@@ -124,23 +124,19 @@ export default function About() {
 
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-primary to-secondary rounded-3xl overflow-hidden shadow-2xl">
-                {/* Story Photo */}
+                {/* Building Communities Photo */}
                 <img 
-                  src="/images/about/story.jpg" 
-                  alt="Team Kavach Story"
-                  className="absolute inset-0 w-full h-full object-cover opacity-80"
-                  onError={(e) => {
-                    // Fallback if image not found
-                    e.currentTarget.style.display = 'none';
-                  }}
+                  src="/images/BuildingCommunties.webp" 
+                  alt="Building Communities - Team Kavach"
+                  className="absolute inset-0 w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/60 to-secondary/60">
+                {/* <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/60 to-secondary/60"> */}
                   <div className="text-center text-white p-8">
                     <IconHeart className="w-32 h-32 mx-auto mb-6 opacity-90" strokeWidth={1.5} />
-                    <p className="text-3xl font-black">Building Communities</p>
-                    <p className="text-xl mt-2 opacity-90">One Act at a Time</p>
+                    <p className="text-3xl opacity-90 text-white">Building Communities</p>
+                    <p className="text-xl mt-2 opacity-90 text-white">One Act at a Time</p>
                   </div>
-                </div>
+                {/* </div> */}
               </div>
             </div>
           </div>

@@ -41,7 +41,7 @@ export default function Programs() {
       impact: ['3000+ notebooks recycled', '1700 recycled books distributed', '150+ exam kits distributed', '50+ teaching hours (CS & English)', 'Rural school rejuvenation project', 'Career counselling and soft skill training to govt schools and colleges'],
       color: 'bg-blue-500',
       gradient: 'from-blue-500 to-cyan-500',
-      image: '/images/gallery/govt-school-college/govt-school-college-10.webp'
+      image: '/images/EducationAndYouthEmpowerment.webp'
     },
     {
       icon: IconMedicalCross,
@@ -51,7 +51,7 @@ export default function Programs() {
       impact: ['50,000+ ml blood collected', '400+ sanitary kits donated', '10+ umbrellas distributed','Engagement with Thalassemia Child Care Center', 'Medication support to pediatric cancer patients at the Indira Gandhi Institute of Child Health'],
       color: 'bg-primary',
       gradient: 'from-red-900 to-red-700',
-      image: '/images/gallery/blood-donation/blood-donation-5.webp'
+      image: '/images/HealthAndWelfareDrives.webp'
     },
     {
       icon: IconHeartHandshake,
@@ -81,7 +81,7 @@ export default function Programs() {
       impact: ["Led badminton tournament to fund rural school sports equipment.", "Organized annual sports-cultural meet at Govt Higher Primary School, Magadi Road.", "Co-organized sports day at MEG School, Bangalore.", "Conducted yoga sessions in govt schools."],
       color: 'bg-purple-500',
       gradient: 'from-purple-500 to-fuchsia-500',
-      image: '/images/gallery/team-group-photos/team-group-photos-3.webp'
+      image: '/images/SportsAndCultural.webp'
     }
   ];
 

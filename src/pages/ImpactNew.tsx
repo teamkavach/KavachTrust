@@ -79,7 +79,7 @@ export default function Impact() {
     {
       quote: "Team KAVACH volunteers visited our school and distributed notebooks to our students—an initiative that left a deep impression on me. In my 32 years of teaching, I have rarely come across such service-minded youngsters. Their thoughtful effort of collecting used notebooks and transforming them into new ones for underprivileged children is both practical and impactful. Their work also brought back memories of my own childhood struggles, when access to books was limited and we often had to reuse the same pages. It is heartening to see such meaningful efforts addressing challenges that still exist for many children today. What Team KAVACH is doing is truly inspiring. I sincerely appreciate their dedication and wish them continued success. May they continue to make a positive difference in many more lives.",
       author: "Vasantha G",
-      role: "Senior Teacher, Nammura Shaale Government Higher Primary School, K Channasandra, Bangalore",
+      role: "Senior Teacher, Government High School, K Channasandra, Bangalore",
       image: ""
     },
     {
