@@ -166,7 +166,7 @@ export default function Home() {
     return { count, startAnimation };
   };
 
-  const volunteersCounter = useCounter(150, 2000);
+  const volunteersCounter = useCounter(180, 2000);
   const blanketsCounter = useCounter(1000, 2500);
   const yearsCounter = useCounter(7, 1500);
 
@@ -264,7 +264,7 @@ export default function Home() {
             style={{ fontSize: 'clamp(0.875rem, 2.5vw, 1.25rem)' }}
             className="text-white/70 max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed font-medium px-2"
           >
-            Join 150+ volunteers transforming lives through education, healthcare, and community action.
+            Join 180+ volunteers transforming lives through education, healthcare, and community action.
           </motion.p>
 
           {/* CTA Buttons */}

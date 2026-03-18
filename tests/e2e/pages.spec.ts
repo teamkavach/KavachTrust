@@ -201,7 +201,7 @@ test.describe('Get Involved Page', () => {
   });
 
   test('hero renders with volunteer count badge', async ({ page }) => {
-    await expect(page.getByText(/Join 150\+ Volunteers/i).first()).toBeVisible();
+    await expect(page.getByText(/Join 180\+ Volunteers/i).first()).toBeVisible();
     await expect(page.getByRole('heading', { name: /Get Involved/i, level: 1 })).toBeVisible();
     await expect(page.getByText(/Make an Impact/i).first()).toBeVisible();
   });
