@@ -224,7 +224,7 @@ export default function Impact() {
             Since 2019
           </h2>
           <p className="text-2xl text-foreground/80 mb-12 max-w-3xl mx-auto leading-relaxed">
-            From a small group of 10 volunteers to a thriving community of 150+, our impact grows every day thanks to dedicated changemakers like you.
+            From a small group of 10 volunteers to a thriving community of 180+, our impact grows every day thanks to dedicated changemakers like you.
           </p>
         </div>
       </Section>

@@ -305,7 +305,7 @@ export default function About() {
             />
             <div className="relative p-16">
               <IconUsers className="w-24 h-24 mx-auto mb-6" strokeWidth={1.5} />
-              <h3 className="text-4xl font-black mb-4 text-white">150+ Volunteers</h3>
+              <h3 className="text-4xl font-black mb-4 text-white">180+ Volunteers</h3>
               <p className="text-xl text-white/90 max-w-2xl mx-auto mb-8">
                 Students, professionals and community leaders united by a common goal creating a positive change
               </p>

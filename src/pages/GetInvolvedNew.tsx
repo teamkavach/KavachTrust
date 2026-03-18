@@ -347,7 +347,7 @@ export default function GetInvolved() {
                 <div className="hidden md:flex bg-primary items-center justify-center p-10">
                   <div className="text-center text-white">
                     <IconUsers className="w-20 h-20 mx-auto mb-4" strokeWidth={1.5} />
-                    <p className="text-xl font-black">Join 150+ Volunteers</p>
+                    <p className="text-xl font-black">Join 180+ Volunteers</p>
                     <p className="text-white/90 mt-2">Making a difference in Bangalore</p>
                   </div>
                 </div>
