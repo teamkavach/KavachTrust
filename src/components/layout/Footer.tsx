@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import IconBrandInstagram from '@tabler/icons-react/dist/esm/icons/IconBrandInstagram';
 import IconBrandLinkedin from '@tabler/icons-react/dist/esm/icons/IconBrandLinkedin';
 import IconBrandYoutube from '@tabler/icons-react/dist/esm/icons/IconBrandYoutube';
+import IconBrandFacebook from '@tabler/icons-react/dist/esm/icons/IconBrandFacebook';
 import IconMail from '@tabler/icons-react/dist/esm/icons/IconMail';
 import IconPhone from '@tabler/icons-react/dist/esm/icons/IconPhone';
 import IconMapPin from '@tabler/icons-react/dist/esm/icons/IconMapPin';
@@ -25,7 +26,7 @@ const supportLinks = [
 ];
 
 const socialLinks = [
-  // { name: 'Facebook', icon: IconBrandFacebook, url: 'https://facebook.com' },
+  { name: 'Facebook', icon: IconBrandFacebook, url: 'https://www.facebook.com/share/184KSP2qRu/?mibextid=wwXIfr' },
   { name: 'Instagram', icon: IconBrandInstagram, url: 'https://www.instagram.com/teamkavach/' },
   { name: 'LinkedIn', icon: IconBrandLinkedin, url: 'https://www.linkedin.com/in/team-kavach-a919b8301/' },
   // { name: 'Twitter', icon: IconBrandTwitter, url: 'https://twitter.com' },
@@ -81,7 +82,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-3 text-white/90">
                 <IconMapPin className="w-5 h-5" strokeWidth={2} />
-                <span className="font-medium">Bangalore, Karnataka, India</span>
+                <span className="font-medium">921, 3rd Main Rd, D-Block, 2nd Stage, Rajajinagar, Bengaluru, Karnataka 560010</span>
               </div>
             </div>
           </div>
