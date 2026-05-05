@@ -18,10 +18,10 @@ const Donate: React.FC = () => {
   useEffect(() => { document.title = 'Donate | Team Kavach'; }, []);
 
   const [copiedUPI, setCopiedUPI] = useState(false);
-  const [copiedAccount, setCopiedAccount] = useState(false);
+  // const [copiedAccount, setCopiedAccount] = useState(false); // PhonePe temporarily hidden
 
   const UPI_ID = "9483481483.1@hdfc";
-  const PHONEPE = "+91 9611438065";
+  // const PHONEPE = "+91 9611438065"; // PhonePe temporarily hidden
   const [copiedBank, setCopiedBank] = useState<string | null>(null);
 
   const BANK = {
@@ -39,15 +39,10 @@ const Donate: React.FC = () => {
 
   const upiDeepLink = `upi://pay?pa=${UPI_ID}&pn=Kavach%20Trust&cu=INR&tn=Donation%20to%20Team%20Kavach`;
 
-  const copyToClipboard = (text: string, type: 'upi' | 'account') => {
+  const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
-    if (type === 'upi') {
-      setCopiedUPI(true);
-      setTimeout(() => setCopiedUPI(false), 2000);
-    } else {
-      setCopiedAccount(true);
-      setTimeout(() => setCopiedAccount(false), 2000);
-    }
+    setCopiedUPI(true);
+    setTimeout(() => setCopiedUPI(false), 2000);
   };
 
   return (
@@ -65,7 +60,7 @@ const Donate: React.FC = () => {
           >
             <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
               <IconSparkles className="w-5 h-5" />
-              <span className="text-sm font-bold">Every Rupee Counts</span>
+              <span className="text-sm font-bold">Every Rupee Counts </span>
             </div>
             
             <h1 className="text-white mb-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black">
@@ -160,7 +155,7 @@ const Donate: React.FC = () => {
                       <p className="text-base sm:text-lg font-bold text-foreground">{UPI_ID}</p>
                       <Button
                         size="sm"
-                        onClick={() => copyToClipboard(UPI_ID, 'upi')}
+                        onClick={() => copyToClipboard(UPI_ID)}
                         className="bg-[#DB143C] hover:bg-[#b91133] text-white font-bold"
                       >
                         {copiedUPI ? <IconCheck className="w-4 h-4" /> : <IconCopy className="w-4 h-4" />}
