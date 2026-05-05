@@ -143,6 +143,17 @@ const Donate: React.FC = () => {
                 </div>
 
                 <div className="space-y-4">
+                  {/* QR Code */}
+                  <div className="flex flex-col items-center bg-gray-50 rounded-xl border border-gray-200 p-4">
+                    <p className="text-xs font-semibold text-muted-foreground mb-3">Scan to Pay — Any UPI App</p>
+                    <img
+                      src="/images/upi-qr.png"
+                      alt="Team Kavach UPI QR Code"
+                      className="w-44 h-44 rounded-xl object-contain"
+                    />
+                    <p className="text-xs text-muted-foreground mt-3">GPay · PhonePe · Paytm · BHIM · Any UPI app</p>
+                  </div>
+
                   <div className="bg-gray-50 p-4 rounded-xl border border-gray-200">
                     <p className="text-xs font-semibold text-muted-foreground mb-2">UPI ID</p>
                     <div className="flex items-center justify-between gap-2">
@@ -157,6 +168,7 @@ const Donate: React.FC = () => {
                     </div>
                   </div>
 
+                  {/* PhonePe Number — temporarily hidden
                   <div className="bg-gray-50 p-4 rounded-xl border border-gray-200">
                     <p className="text-xs font-semibold text-muted-foreground mb-2">PhonePe Number</p>
                     <div className="flex items-center justify-between gap-2">
@@ -170,6 +182,7 @@ const Donate: React.FC = () => {
                       </Button>
                     </div>
                   </div>
+                  */}
 
                   {/* UPI Deep Link - always visible, works on mobile */}
                   <div className="space-y-1.5">
@@ -186,7 +199,7 @@ const Donate: React.FC = () => {
                   <div className="bg-primary/5 p-4 rounded-xl">
                     <div className="text-sm text-muted-foreground space-y-1.5">
                       <p className="flex items-center gap-2">✓ Open any UPI app (GPay, PhonePe, Paytm)</p>
-                      <p className="flex items-center gap-2">✓ Enter UPI ID or Phone number</p>
+                      <p className="flex items-center gap-2">✓ Enter UPI ID</p>
                       <p className="flex items-center gap-2">✓ Send any amount you wish</p>
                       <p className="flex items-center gap-2">✓ Screenshot & WhatsApp us confirmation</p>
                     </div>
