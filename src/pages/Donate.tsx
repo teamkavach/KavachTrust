@@ -65,7 +65,7 @@ const Donate: React.FC = () => {
           >
             <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
               <IconSparkles className="w-5 h-5" />
-              <span className="text-sm font-bold">Every Rupee Counts</span>
+              <span className="text-sm font-bold">Every Rupee Counts </span>
             </div>
             
             <h1 className="text-white mb-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black">
